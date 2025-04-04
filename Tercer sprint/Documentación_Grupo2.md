@@ -1,46 +1,5 @@
-﻿![ref1]
 
-1 Grupo 2![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.002.png)![ref2]![ref3]
-
-Versión: 1.0
-
-Índice![ref2]
-
-1. [Informe.......................................................................](#_page2_x56.70_y101.90).......[3](#_page2_x56.70_y101.90)
-
-[1.2. Objetivo del informe.....................................................](#_page2_x56.70_y147.55).....[3](#_page2_x56.70_y147.55)
-
-2. [Materiales usados......................................................](#_page2_x56.70_y272.65).....[3](#_page2_x56.70_y272.65)
-
-[2.1. Materiales usados...............................................................3](#_page2_x56.70_y318.30)
-
-1. [Hardware............................................................................](#_page2_x56.70_y358.65)........[3](#_page2_x56.70_y358.65)
-1. [Softwware..............................................................................](#_page3_x56.70_y240.45)........[4](#_page3_x56.70_y240.45)
-3. [Instalación de Windows Server.................................](#_page3_x56.70_y347.35)..[4](#_page3_x56.70_y347.35)
-
-[3.1. Instalación con uso de Ventoy......................................](#_page3_x56.70_y393.00)...[4](#_page3_x56.70_y393.00)
-
-4. [Configuración del RAID 5..........................................](#_page8_x56.70_y89.90)...[9](#_page8_x56.70_y89.90)
-1. [Mediante Hardware......................................................](#_page8_x56.70_y135.55).....[9](#_page8_x56.70_y135.55)
-1. [Primer intento...................................................................](#_page8_x56.70_y175.90).......[9](#_page8_x56.70_y175.90)
-
-[4.1.1.1 Problemas...........................................................................................9](#_page8_x56.70_y228.95)
-
-2. [Segundo Intento.......................................................................9](#_page8_x56.70_y312.60)
-
-[4.1.2.1 Problemas...........................................................................................9](#_page8_x56.70_y397.55)
-
-3. [Tercer Intento..........................................................................10](#_page9_x56.70_y96.90)
-
-[4.1.3.1 Problemas..................................................................................](#_page9_x56.70_y453.00)......[10](#_page9_x56.70_y453.00)
-
-[4.1.4 Conclusión................................................................................10](#_page9_x56.70_y536.65)
-
-2. [Mediante Softwware........................................................](#_page10_x56.70_y99.90)...[11](#_page10_x56.70_y99.90)![ref3]
-
-2 Grupo 2
-![ref1]
-1. # Informe![ref2]
+1. # Informe
    2. ## <a name="_page2_x56.70_y101.90"></a>Objetivo<a name="_page2_x56.70_y147.55"></a> del informe
 El propósito de este informe es detallar el proceso de instalación y configuración de un servidor Windows con RAID 5, así como la creación de una red LAN. Se pretende describir cada fase, de la implementación, tocando aspectos técnicos del hardware, la configuración del sistema operativo, la gestión del almacenamiento en RAID 5 y la organización de la red.
 2. # Materiales<a name="_page2_x56.70_y272.65"></a> usados
@@ -53,10 +12,8 @@ El propósito de este informe es detallar el proceso de instalación y configura
 
 ![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.005.jpeg) ![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.006.jpeg)
 
-2 Grupo 2
-![ref1]
 
-- Discos:![ref2]
+- Discos:
   - 3 discos con almacenamiento de 500GB
   - 1 Disco SSD de 120GB.
 - Otros:
@@ -77,12 +34,10 @@ instalación y el sistema operativo, en este caso Español.![ref3]
 
 ![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.007.png)
 
-2 Grupo 2
-![ref1]
 
 ![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.008.png)
 
-En esta ventana se debe introducir la clave del producto.![ref2]![ref3]
+En esta ventana se debe introducir la clave del producto.![ref3]
 
 ![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.009.png)
 
