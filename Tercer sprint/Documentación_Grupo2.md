@@ -37,46 +37,39 @@ instalación y el sistema operativo, en este caso Español.![ref3]
 
 ![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.008.png)
 
-En esta ventana se debe introducir la clave del producto.![ref3]
+En esta ventana se debe introducir la clave del producto.
 
 ![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.009.png)
 
-2 Grupo 2
-![ref1]
 
-Ahora  escogeremos  el  sistema  operativo Windows  Server  2022  Datacenter (experienza escritorio).![ref2]
+Ahora  escogeremos  el  sistema  operativo Windows  Server  2022  Datacenter (experienza escritorio).
 
 ![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.010.png)
 
-Aceptamos términos y condiciones.![ref3]
+Aceptamos términos y condiciones.
 
 ![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.011.png)
 
-2 Grupo 2
-![ref1]
 
-La instalación la haremos sobre un disco de 500GB![ref2]
+La instalación la haremos sobre un disco de 500GB
 
 ![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.012.png)
 
-Esperamos a que la instalación termine y podemos continuar.![ref3]
+Esperamos a que la instalación termine y podemos continuar.
 
 ![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.013.png)
 
-2 Grupo 2
-![ref1]
 
-Cuando la instalación se complete escogeremos la contraseña del administrador.![ref2]
+Cuando la instalación se complete escogeremos la contraseña del administrador.
 
 ![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.014.png)
 
-Finalizada la instalación del Sistema Operativo Windows Server.![ref3]
+Finalizada la instalación del Sistema Operativo Windows Server.
 
 ![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.015.png)
 
-2 Grupo 2
-![ref1]
-4. # Configuración<a name="_page8_x56.70_y89.90"></a> del RAID 5![ref2]
+
+4. # Configuración<a name="_page8_x56.70_y89.90"></a> del RAID 5
 1. ## Mediante<a name="_page8_x56.70_y135.55"></a> Hardware
 1. ### Primer<a name="_page8_x56.70_y175.90"></a> intento
 Con una tarjeta controladora de RAID, proporcionada por el profesor.
@@ -85,11 +78,10 @@ La tarjeta controladora no era compatible con la placa base. No se pudo encontra
 2. ### Segundo<a name="_page8_x56.70_y312.60"></a> Intento
 Haciendo uso de la funcionalidad de Windows para crear RAIDs se intento conectar 4 discos a la maquina, siendo uno el del Sistema operativo y los tres para el RAID 5.
 #### <a name="_page8_x56.70_y397.55"></a>4.1.2.1 Problemas
-La fuente de alimentación solo puede dar energía máximo a tres discos duros a la vez, no tiene capacidad para admitir un cuarto disco.![ref3]
+La fuente de alimentación solo puede dar energía máximo a tres discos duros a la vez, no tiene capacidad para admitir un cuarto disco.
 
-2 Grupo 2
-![ref1]
-3. ### Tercer<a name="_page9_x56.70_y96.90"></a> Intento![ref2]
+
+3. ### Tercer<a name="_page9_x56.70_y96.90"></a> Intento!
 También se intento fue conectar tres discos duros a la fuente de alimentación
 
 y haciendo uso de un adaptar de USB 3.0 a SATA 3, se instalo en una SSD de 120GB el Sistema operativo Windows Server, conectado al adaptador.
@@ -100,10 +92,9 @@ El ordenador no tiene la capacidad para poder iniciar por BOOT el USB, dando pan
 ### <a name="_page9_x56.70_y536.65"></a>4.1.4 Conclusión
 Se llego a la conclusión que no era posible hacer un RAID 5 mediante Hardware, optando a realizar un RAID 5 por So ftwware.![ref3]
 
-2 Grupo 2
-![ref1]
 
-2. Mediante<a name="_page10_x56.70_y99.90"></a> Softwware![ref2]
+
+2. Mediante<a name="_page10_x56.70_y99.90"></a> Softwware
 
 4\.2.1.Grupos de Almacenamiento
 
@@ -111,14 +102,12 @@ Usamos un disco extra para realizar el RAID 5, primero hay que inicializar el di
 
 ![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.017.png)
 
-Se debe crear un nuevo volumen simple.![ref3]
+Se debe crear un nuevo volumen simple.
 
 ![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.018.png)
 
-2 Grupo 2
-![ref1]
 
-Tambien hay que reducir el tamaño del disco del sistema operativo o añadir un nuevo disco. Y añadir un disco vacio![ref2]
+Tambien hay que reducir el tamaño del disco del sistema operativo o añadir un nuevo disco. Y añadir un disco vacio.
 
 ![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.019.png)
 
@@ -128,23 +117,20 @@ La letra asignada sera la D.
 
 ![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.021.png)
 
-Ahora crearemos 3 unidades vhd en el apartado Acción.![ref3]
+Ahora crearemos 3 unidades vhd en el apartado Acción.
 
 ![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.022.png)
 
-2 Grupo 2
-![ref1]
 
-Examinaremos donde queremos crear y guardar los archivos y el tamaño.![ref2]![ref3]
+
+Examinaremos donde queremos crear y guardar los archivos y el tamaño.
 
 ![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.023.png)
 
 ![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.024.png)
 
-2 Grupo 2
-![ref1]
 
-Ahora ya tenemos los discos creados.![ref2]
+Ahora ya tenemos los discos creados.
 
 ![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.025.png)
 
@@ -152,90 +138,74 @@ Para continuar con en el Administrador del servidor nos dirigiremos a Servicios 
 
 ![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.026.png)
 
-Dentro a Grupo de almacenamiento.![ref3]
+Dentro a Grupo de almacenamiento.
 
 ![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.027.png)
 
-2 Grupo 2
-![ref1]
 
-Debemos actualizar para buscar el grupo primordial.![ref2]
+Debemos actualizar para buscar el grupo primordial.
 
 ![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.028.png)
 
-Ahora nuevo grupo.![ref3]
+Ahora nuevo grupo.
 
 ![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.029.png)
 
-2 Grupo 2
-![ref1]
 
-Y ahora los pasos mas importantes. Asignar un  nombre a el grupo:![ref2]
+
+Y ahora los pasos mas importantes. Asignar un  nombre a el grupo:
 
 ![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.030.png)
 
-Seleccionar el disco físico.![ref3]
+Seleccionar el disco físico.
 
 ![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.031.png)
 
-2 Grupo 2
-![ref1]
 
-Crear el grupo de volúmenes.![ref2]
+Crear el grupo de volúmenes.
 
 ![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.032.png)
 
-Esperamos que el proceso termine y cerramos la ventana.![ref3]
+Esperamos que el proceso termine y cerramos la ventana.
 
 ![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.033.png)
 
-2 Grupo 2
-![ref1]
 
-Lo siguiente seria ir a Discos virtuales, donde tenemos que añadir el grupo que ![ref2]habíamos creado.![ref3]
+Lo siguiente seria ir a Discos virtuales, donde tenemos que añadir el grupo que habíamos creado.
 
 ![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.034.png)
 
 ![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.035.png)
 
-2 Grupo 2
-![ref1]
 
-Ahora crearemos un nuevo disco virtual. Estas acciones las haremos para los tres discos.![ref2]
+Ahora crearemos un nuevo disco virtual. Estas acciones las haremos para los tres discos.
 
 Nombre:
 
 ![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.036.png)
 
-La distribución debe ser simple para que funcione.![ref3]
+La distribución debe ser simple para que funcione.
 
 ![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.037.png)
 
-2 Grupo 2
-![ref1]
 
-Aprovisionamiento Fijo.![ref2]
+Aprovisionamiento Fijo.
 
 ![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.038.png)
 
-El tamaño que deseamos o máximo.![ref3]
+El tamaño que deseamos o máximo.
 
 ![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.039.png)
 
-2 Grupo 2
-![ref1]
 
-Luego seria crear.![ref2]
+
+Luego seria crear.
 
 ![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.040.png)
 
 Ahora en administrador de discos.
 
-Podemos crear un RAID5 y ver el procedimiento de este.![ref3]
+Podemos crear un RAID5 y ver el procedimiento de este.
 
 ![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.041.png)
-2 Grupo 2
 
-[ref1]: ./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.001.png
-[ref2]: ./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.003.png
-[ref3]: ./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.004.png
