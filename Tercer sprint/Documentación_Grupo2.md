@@ -1,6 +1,5 @@
-
-1. # Informe
-   2. ## <a name="_page2_x56.70_y101.90"></a>Objetivo<a name="_page2_x56.70_y147.55"></a> del informe
+# Informe
+## <a name="_page2_x56.70_y101.90"></a>Objetivo<a name="_page2_x56.70_y147.55"></a> del informe
 El propósito de este informe es detallar el proceso de instalación y configuración de un servidor Windows con RAID 5, así como la creación de una red LAN. Se pretende describir cada fase, de la implementación, tocando aspectos técnicos del hardware, la configuración del sistema operativo, la gestión del almacenamiento en RAID 5 y la organización de la red.
 2. # Materiales<a name="_page2_x56.70_y272.65"></a> usados
 ## <a name="_page2_x56.70_y318.30"></a>2.1. Materiales usados
