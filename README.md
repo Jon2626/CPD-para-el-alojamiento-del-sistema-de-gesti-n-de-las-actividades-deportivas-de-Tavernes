@@ -46,7 +46,7 @@ El **Work Breakdown Structure (WBS)** que se presenta a continuación desglosa l
 ### 1.4 Cronograma  
 El **Cronograma** que se presenta a continuación detalla las fases y actividades clave del proyecto, este en específico del primer sprint, permite coordinar tareas, establecer plazos y garantizar que el proyecto avance de manera ordenada y dentro de los tiempos establecidos. 
 
-<img src="1sprint fotos/Aspose.Words.d33e57a9-2320-4bfb-a090-966139295fa7.006.png" width="50%" height="150" alt="Mi Foto">
+<img src="/img/sprint1/Aspose.Words.d33e57a9-2320-4bfb-a090-966139295fa7.006.png" width="50%" height="150" alt="Mi Foto">
 
 
 ### 1.5 Equipo  
@@ -54,7 +54,7 @@ A continuación, se ve los miembros del equipo y sus roles.
 - **Jonman Jimenez Mendoza**: Líder del Proyecto.  
 - **Jaime Climent Cardona**: Administrador de Infraestructura TI.  
 - **Frances Simó Olmo**: Gestor de Riesgos.  
-<img src="1sprint fotos/Aspose.Words.d33e57a9-2320-4bfb-a090-966139295fa7.007.png" width="50%" height="150" alt="Mi Foto">
+<img /img/sprint1/Aspose.Words.d33e57a9-2320-4bfb-a090-966139295fa7.007.png" width="50%" height="150" alt="Mi Foto">
 
 
 ---
@@ -158,7 +158,7 @@ Las **Tareas en equipo** que se abordarán a continuación incluyen la planifica
 ## 2.4. Firmas
 Al firmar este documento se está de acuerdo y comprometen a cumplir con las tareas y responsabilidades asignadas. 
 
-<img src="1sprint fotos/Aspose.Words.d33e57a9-2320-4bfb-a090-966139295fa7.008.png" width="70%" height="100" alt="Mi Foto">
+<img src="/img/sprint1/Aspose.Words.d33e57a9-2320-4bfb-a090-966139295fa7.008.png" width="70%" height="100" alt="Mi Foto">
 Jonman Jiménez Mendoza Jaime Climent Cardona Frances Simó Olmo 
 
 ---
@@ -388,7 +388,7 @@ La **Evaluación de Riesgos y Planificación de Contingencias** que se explicar�
 
 ## 3.1. Diseño de la arquitectura del diseño
 
-<img src="1sprint fotos/1. Diseño de la arquitectura del diseño.jpg" width="50%" height="auto" alt="Mi Foto">
+<img src="/img/sprint1/1. Diseño de la arquitectura del diseño.jpg" width="50%" height="auto" alt="Mi Foto">
 
 ## 3.2 Selección de hardware y software 
 
@@ -631,7 +631,7 @@ El CPD está diseñado para alojar el sistema de gestión de actividades deporti
 
 ## 2.2. Diagrama de arquitectura
 
-<img src="1sprint fotos/1. Diseño de la arquitectura del diseño.jpg" width="50%" height="auto" alt="Mi Foto">
+<img src="/img/sprint1/1. Diseño de la arquitectura del diseño.jpg" width="50%" height="auto" alt="Mi Foto">
 
 
 ---
@@ -774,7 +774,7 @@ El propósito de este informe es detallar el proceso de instalación y configura
 - Procesador: Intel® CPU G455560 @3.50GHz.
 - RAM: Cruzial 4096MB 2666MHz.![ref3]
 
-![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.005.jpeg) ![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.006.jpeg)
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.005.jpeg) ![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.006.jpeg)
 
 
 - Discos:
@@ -796,41 +796,41 @@ La instalación comienza con la elección del idioma, que permanecerá durante l
 
 instalación y el sistema operativo, en este caso Español.![ref3]
 
-![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.007.png)
+![](/img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.007.png)
 
 
-![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.008.png)
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.008.png)
 
 En esta ventana se debe introducir la clave del producto.
 
-![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.009.png)
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.009.png)
 
 
 Ahora  escogeremos  el  sistema  operativo Windows  Server  2022  Datacenter (experienza escritorio).
 
-![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.010.png)
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.010.png)
 
 Aceptamos términos y condiciones.
 
-![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.011.png)
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.011.png)
 
 
 La instalación la haremos sobre un disco de 500GB
 
-![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.012.png)
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.012.png)
 
 Esperamos a que la instalación termine y podemos continuar.
 
-![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.013.png)
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.013.png)
 
 
 Cuando la instalación se complete escogeremos la contraseña del administrador.
 
-![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.014.png)
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.014.png)
 
 Finalizada la instalación del Sistema Operativo Windows Server.
 
-![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.015.png)
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.015.png)
 
 
 4. # Configuración<a name="_page8_x56.70_y89.90"></a> del RAID 5
@@ -850,7 +850,7 @@ También se intento fue conectar tres discos duros a la fuente de alimentación
 
 y haciendo uso de un adaptar de USB 3.0 a SATA 3, se instalo en una SSD de 120GB el Sistema operativo Windows Server, conectado al adaptador.
 
-![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.016.jpeg)
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.016.jpeg)
 #### <a name="_page9_x56.70_y453.00"></a>4.1.3.1 Problemas
 El ordenador no tiene la capacidad para poder iniciar por BOOT el USB, dando pantallazos azules sin poder proseguir con el RAID 5 y perdiendo acceso al Windows Server.
 ### <a name="_page9_x56.70_y536.65"></a>4.1.4 Conclusión
@@ -864,111 +864,111 @@ Se llego a la conclusión que no era posible hacer un RAID 5 mediante Hardware, 
 
 Usamos un disco extra para realizar el RAID 5, primero hay que inicializar el disco. Esto se realizad des de Administración de Discos.
 
-![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.017.png)
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.017.png)
 
 Se debe crear un nuevo volumen simple.
 
-![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.018.png)
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.018.png)
 
 
 Tambien hay que reducir el tamaño del disco del sistema operativo o añadir un nuevo disco. Y añadir un disco vacio.
 
-![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.019.png)
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.019.png)
 
-![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.020.png)
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.020.png)
 
 La letra asignada sera la D.
 
-![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.021.png)
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.021.png)
 
 Ahora crearemos 3 unidades vhd en el apartado Acción.
 
-![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.022.png)
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.022.png)
 
 
 
 Examinaremos donde queremos crear y guardar los archivos y el tamaño.
 
-![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.023.png)
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.023.png)
 
-![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.024.png)
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.024.png)
 
 
 Ahora ya tenemos los discos creados.
 
-![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.025.png)
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.025.png)
 
 Para continuar con en el Administrador del servidor nos dirigiremos a Servicios de archivos y de almacenamiento.
 
-![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.026.png)
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.026.png)
 
 Dentro a Grupo de almacenamiento.
 
-![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.027.png)
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.027.png)
 
 
 Debemos actualizar para buscar el grupo primordial.
 
-![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.028.png)
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.028.png)
 
 Ahora nuevo grupo.
 
-![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.029.png)
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.029.png)
 
 
 
 Y ahora los pasos mas importantes. Asignar un  nombre a el grupo:
 
-![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.030.png)
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.030.png)
 
 Seleccionar el disco físico.
 
-![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.031.png)
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.031.png)
 
 
 Crear el grupo de volúmenes.
 
-![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.032.png)
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.032.png)
 
 Esperamos que el proceso termine y cerramos la ventana.
 
-![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.033.png)
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.033.png)
 
 
 Lo siguiente seria ir a Discos virtuales, donde tenemos que añadir el grupo que habíamos creado.
 
-![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.034.png)
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.034.png)
 
-![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.035.png)
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.035.png)
 
 
 Ahora crearemos un nuevo disco virtual. Estas acciones las haremos para los tres discos.
 
 Nombre:
 
-![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.036.png)
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.036.png)
 
 La distribución debe ser simple para que funcione.
 
-![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.037.png)
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.037.png)
 
 
 Aprovisionamiento Fijo.
 
-![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.038.png)
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.038.png)
 
 El tamaño que deseamos o máximo.
 
-![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.039.png)
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.039.png)
 
 
 
 Luego seria crear.
 
-![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.040.png)
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.040.png)
 
 Ahora en administrador de discos.
 
 Podemos crear un RAID5 y ver el procedimiento de este.
 
-![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.041.png)
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.041.png)
