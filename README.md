@@ -4,7 +4,7 @@
 **Jonman Jimenez Mendoza**  
 
 ## ÍNDICE
--[Sprint 1](#spint1)
+- [Sprint 1](#spint1)
 
 
 ---
