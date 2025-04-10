@@ -16,7 +16,7 @@
     - [1.5 Equipo](#15-equipo)
   - [2. Documento de Roles y Responsabilidades](#2-documento-de-roles-y-responsabilidades)
     - [2.1 Roles y Responsabilidades](#21-roles-y-responsabilidades)
-      - [2.1.1 Rol](#211-rol)
+      - [2.1.1 Rol 1](#211-rol-1)
         - [Líder del Proyecto](#lider-del-proyecto)
 
 
@@ -82,7 +82,7 @@ En este documento se redacta los roles, responsabilidades y tareas asignadas a l
 El equipo encargado se encarga de la creación, gestión y mantenimiento del CPD que alojara el sistema de gestión de actividades deportivas de Tavernes. 
 
 ### 2.1 Roles y Responsabilidades  
-### 2.1.1. Rol 
+### 2.1.1. Rol 1
 #### **Líder del Proyecto**  
 Persona en quien recaen las responsabilidades generales y quien realiza las estimaciones sobre la capacidad de esfuerzo del equipo. 
 ##### 2.1.1.1 Responsabilidades
@@ -92,7 +92,7 @@ Persona en quien recaen las responsabilidades generales y quien realiza las esti
 - Resolver conflictos.  
 - Gestión documentación.  
 
-### 2.1.2. Rol
+### 2.1.2. Rol 2
 #### **Administrador de Infraestructura TI**  
 Encargado de diseñar, planificar y supervisar la infraestructura software y Hardware.  
 ##### 2.1.2.1 Responsabilidades
@@ -100,7 +100,7 @@ Encargado de diseñar, planificar y supervisar la infraestructura software y Har
 - Gestión de redes y seguridad.  
 - Mantenimiento y actualizaciones.  
 
-### 2.1.3. Rol
+### 2.1.3. Rol 3
 #### **Gestor de Riesgos**
 Identifica, analiza y evalúa los riesgos que podrían afectar la operación del CPD. 
 ##### 2.1.3.1 Responsabilidades
