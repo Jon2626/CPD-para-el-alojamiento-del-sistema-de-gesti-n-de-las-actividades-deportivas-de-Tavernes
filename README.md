@@ -16,8 +16,8 @@
     - [1.5 Equipo](#15-equipo)
   - [2. Documento de Roles y Responsabilidades](#2-documento-de-roles-y-responsabilidades)
     - [2.1 Roles y Responsabilidades](#21-roles-y-responsabilidades)
-      - [2.1.1 Rol](211-rol)
-      - 
+      - [2.1.1 Rol](#211-rol)
+      - [Líder del Proyecto](#Lider)
 
 
 ---
