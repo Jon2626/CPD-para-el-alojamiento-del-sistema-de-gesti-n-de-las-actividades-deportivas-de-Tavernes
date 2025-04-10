@@ -662,50 +662,29 @@ Este apartado describe el plan de recuperación ante desastres para garantizar l
 - **Evaluación de fallos**: Análisis de vulnerabilidades detectadas y mejora continua.
 - **Actualización del plan**: Revisión periódica en función de nuevas amenazas o necesidades operativas.
 
-# 1. Introducción
+## 8. Resumen de la Arquitectura
 
-## 1.1. Propósito del documento
-
-Este documento tiene como finalidad detallar la arquitectura y configuración del Centro de Procesamiento de Datos (CPD) que aloja el sistema de gestión de actividades deportivas de Tavernes. Se examinan tanto los aspectos físicos como lógicos, las decisiones técnicas adoptadas y las estrategias de respaldo y seguridad implementadas para asegurar la operatividad y escalabilidad del sistema.
-
-## 1.2. Alcance
-
-- **Infraestructura física**: Ubicación, distribución y descripción de los equipos (servidores, estaciones de trabajo, dispositivos de red, almacenamiento NAS, etc.).
-- **Infraestructura lógica**: Diseño y segmentación de la red (VLANs, subredes, asignación de IPs), configuraciones de servidores, virtualización y servicios.
-- **Software y servicios**: Sistemas operativos, aplicaciones críticas, herramientas de respaldo, virtualización y monitorización.
-- **Políticas de seguridad y respaldo**: Estrategias para asegurar la integridad, disponibilidad y confidencialidad de la información.
-
-## 1.3. Público objetivo
-
-- Administradores y personal de operaciones de TI.
-- Técnicos de mantenimiento y soporte.
-- Responsables de seguridad y auditoría de sistemas.
-
----
-
-# 2. Resumen de la Arquitectura
-
-## 2.1. Descripción general del CPD
+## 8.1 Descripción general del CPD
 
 El CPD está diseñado para alojar el sistema de gestión de actividades deportivas de Tavernes, garantizando un entorno seguro, escalable y de alta disponibilidad. La arquitectura incluye la segmentación en diferentes VLAN para separar el tráfico de gestión, el de servidores y el de respaldo, lo que optimiza el rendimiento y facilita la administración.
 
-## 2.2. Diagrama de arquitectura
+## 8.2 Diagrama de arquitectura
 
 <img src="/img/sprint1/1. Diseño de la arquitectura del diseño.jpg" width="50%" height="auto" alt="Mi Foto">
 
 
 ---
 
-# 3. Infraestructura Física
+## 9. Infraestructura Física
 
-## 3.1. Ubicación y distribución del CPD
+## 9.1 Ubicación y distribución del CPD
 
 - **Ubicación**: Sala específica con acceso restringido y monitoreo constante.
 - **Distribución**: Racks organizados para optimizar el flujo de aire y reducir interferencias, con colocación estratégica de servidores, dispositivos de red y almacenamiento.
 
-## 3.2. Equipos
+## 9.2 Equipos
 
-### 3.2.1. Servidores
+### 9.2.1 Servidores
 
 - **Servidor de aplicaciones**  
   - Modelo: Dell PowerEdge R740  
@@ -724,7 +703,7 @@ El CPD está diseñado para alojar el sistema de gestión de actividades deporti
   - Soporta hasta 12 discos SATA, SAS o NVMe  
   - Memoria optimizada para uso de caché
 
-### 3.2.2. Almacenamiento en red (NAS)
+### 9.2.2 Almacenamiento en red (NAS)
 
 - Modelo: Synology DS1821+  
   - Capacidad: 10 TB (hasta 18 bahías)  
@@ -732,14 +711,14 @@ El CPD está diseñado para alojar el sistema de gestión de actividades deporti
   - Memoria: 4 GB DDR4 (ampliable a 32 GB)  
   - Funcionalidades: RAID 5, replicación, backup automat
 
-### 3.2.3. Estaciones de trabajo
+### 9.2.3 Estaciones de trabajo
 
 - Modelo: Dell OptiPlex 7020  
   - Procesador: Intel Core i5-14500  
   - Memoria: 16 GB DDR5 a 4800 MHz  
   - Almacenamiento: SSD NVMe 512 GB
 
-### 3.2.4. Equipos de red
+### 9.2.4 Equipos de red
 
 #### Switches
 - Modelo: Tenda TEG1118P-16-250W (PoE)  
@@ -753,15 +732,15 @@ El CPD está diseñado para alojar el sistema de gestión de actividades deporti
 - Modelo: SAI Online 1000 VA LCD SH  
   - Respaldo eléctrico, protección contra sobrecargas, apagado automático
 
-## 3.3. Red eléctrica y redundancia
+## 9.3 Red eléctrica y redundancia
 
 Conexión eléctrica redundante mediante UPS y generadores. Distribución sin puntos únicos de fallo y protección con SAI para equipos críticos.
 
 ---
 
-# 4. Infraestructura Lógica
+## 10. Infraestructura Lógica
 
-## 4.1. Diseño de redes
+## 10.1 Diseño de redes
 
 - **Segmentación en VLANs**:
   - Administración
@@ -769,7 +748,7 @@ Conexión eléctrica redundante mediante UPS y generadores. Distribución sin pu
   - Usuario final
 - **Subredes e IPs**: Direccionamiento individual para control y seguridad.
 
-## 4.2. Configuración de servidores y servicios
+## 10.2 Configuración de servidores y servicios
 
 - Sistema operativo: **Windows Server 2022**
 - Seguridad: Cifrado RSA, autenticación multifactor
@@ -777,7 +756,7 @@ Conexión eléctrica redundante mediante UPS y generadores. Distribución sin pu
   - **Hyper-V**: en servidor de aplicaciones
   - **VMware Workstation Pro**: para desarrollo y pruebas
 
-## 4.3. Configuración de Software
+## 10.3 Configuración de Software
 
 - **Base de datos**: MySQL
 - **Backup**: Aomei Backupper
@@ -786,36 +765,36 @@ Conexión eléctrica redundante mediante UPS y generadores. Distribución sin pu
 
 ---
 
-# 5. Decisiones Técnicas y Justificación
+## 11. Decisiones Técnicas y Justificación
 
-## 5.1. Elección de hardware y software
+## 11.1 Elección de hardware y software
 
 - **Dell PowerEdge**: Fiabilidad, escalabilidad, rendimiento.
 - **NAS Synology**: Almacenamiento escalable y seguro.
 - **Red**: Tenda y MikroTik por su funcionalidad y fiabilidad.
 - **Software**: Windows Server, MySQL, Aomei, VMware
 
-## 5.2. Estrategias de redundancia y alta disponibilidad
+## 11.2 Estrategias de redundancia y alta disponibilidad
 
 - SAI + conexiones duplicadas
 - Servidor de respaldo + replicación de datos en NAS
 - Balanceo de carga para servicios críticos
 
-## 5.3. Políticas de respaldo y recuperación
+## 11.3 Políticas de respaldo y recuperación
 
 - Copias automatizadas y remotas
 - Protocolos de recuperación con tiempos mínimos de respuesta
 
 ---
 
-# 6. Procedimientos de Mantenimiento y Actualización
+## 12. Procedimientos de Mantenimiento y Actualización
 
-## 6.1. Plan de actualización de software
+## 12.1 Plan de actualización de software
 
 - Actualizaciones periódicas de SO, apps y firmware
 - Pruebas de compatibilidad previas en entornos controlados
 
-## 6.2. Monitoreo y alertas
+## 12.2 Monitoreo y alertas
 
 - Supervisión en tiempo real (Pandora, Zabbix, Nagios)
 - Alertas automáticas para fallos, congestión o amenazas
