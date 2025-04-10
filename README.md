@@ -12,6 +12,10 @@
       - [1.2.1 Requisitos del sistema de Gestión](#121-requisitos-del-sistema-de-gestión)
       - [1.2.2 Requisitos del CPD](#122-requisitos-del-cpd)
     - [1.3 WBS](#13-wbs)
+    - [1.4 Cronograma](#14-cronograma)
+    - [1.5 Equipo](#15-equipo)
+  - [2. Documento de Roles y Responsabilidades](#2-documento-de-roles-y-responsabilidades)
+    - [2.1 Roles y Responsabilidades](#21-roles-y-responsabilidades)
 
 
 ---
