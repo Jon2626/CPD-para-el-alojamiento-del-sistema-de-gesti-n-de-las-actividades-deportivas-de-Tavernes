@@ -1,6 +1,4 @@
-> PRUEBAS DE COPIAS DE
-
-SEGURIDAD
+# PRUEBAS DE COPIAS DE SEGURIDAD
 
 > Para hacer las pruebas de las copias de seguridad hemos seleccionado
 > el software AOMEI Backupper en su versión para servidores.
