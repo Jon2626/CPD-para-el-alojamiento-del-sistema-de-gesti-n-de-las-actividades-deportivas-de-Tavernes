@@ -82,7 +82,7 @@ En este documento se redacta los roles, responsabilidades y tareas asignadas a l
 El equipo encargado se encarga de la creación, gestión y mantenimiento del CPD que alojara el sistema de gestión de actividades deportivas de Tavernes. 
 
 ### 2.1 Roles y Responsabilidades  
-### 2.1.1. Rol 1
+### 2.1.1 Rol 1
 #### **Líder del Proyecto**  
 Persona en quien recaen las responsabilidades generales y quien realiza las estimaciones sobre la capacidad de esfuerzo del equipo. 
 ##### 2.1.1.1 Responsabilidades
@@ -276,7 +276,7 @@ Todo el software que se va a necesitar
 
 ---
 
-## 4. Recursos Necesarios 
+## 4 Recursos Necesarios 
 Los **Recursos Necesarios** que se abordarán a continuación, enfocados en el aspecto financiero del Proyecto para alojar el sistema de gestión de actividades deportivas de Tavernes, detallan el presupuesto requerido y su por qué. 
 
 ### 4.1 Presupuesto  
@@ -357,25 +357,25 @@ Soporte empresarial: El soporte empresarial que hemos decidido utilizar ha sido 
 La **Evaluación de Riesgos y Planificación de Contingencias** que se explicará a continuación identifica posibles problemas que podrían afectar al CPD. Esto incluye riesgos técnicos, operativos y de seguridad. Asimismo, se detallarán estrategias de mitigación y planes de contingencia para minimizar su impacto. 
 ### 5.1 Identificación de Riesgos
 
-### 5.1.1. Riesgos tecnológicos
+### 5.1.1 Riesgos tecnológicos
 - **Fallo de hardware:** Posible avería de servidores, almacenamiento o componentes de red. 
 - **Fallo de software:** Errores en el sistema operativo, bases de datos o aplicaciones. 
 - **Ciberataques:** Malware, ransomware, accesos no autorizados. 
 - **Pérdida de datos:** Eliminación accidental, dañado de alguno de los datos o fallos en las copias de seguridad. 
 - **Fallo de red:** Interrupciones en la conexión o caída de la red interna. 
 
-### 5.1.2. Riesgos ambientales
+### 5.1.2 Riesgos ambientales
 - **Fallo eléctrico:** Apagones, sobretensiones o fallos en la alimentación eléctrica. 
 - **Incendios o inundaciones:** Desastres naturales o incidentes que afectan a la infraestructura física. 
 - **Temperaturas extremas:** Fallo en el sistema de refrigeración que provoca un fallo. 
 
-### 5.1.3. Riesgos Humanos 
+### 5.1.3 Riesgos Humanos 
 - **Errores operativos:** Configuraciones erróneas, manipulación inadecuada de equipos o eliminaciones accidentales. 
 - **Sabotaje interno:** Actos intencionados de empleados con acceso al sistema. 
 
 ### 5.2 Plan de Contingencia  
 
-### 5.2.1. Medidas Preventivas 
+### 5.2.1 Medidas Preventivas 
 - **Monitoreo proactivo:** Implementación de sistemas de monitoreo en tiempo real (Zabbix/Nagios) para hardware, software y redes. 
 - **Backups regulares:** Copias de seguridad automatizadas y almacenamiento en una ubicación remota. 
 - **Firewall y seguridad perimetral:** Uso de firewalls avanzados, IDS/IPS y software antimalware. 
@@ -392,7 +392,7 @@ La **Evaluación de Riesgos y Planificación de Contingencias** que se explicar�
 | Corte eléctrico  | Uso de UPS y generador, notificación a proveedor eléctrico            |
 | Incendio/Inundación | Activación de protocolos de evacuación, traslado a sitio alternativo |
 
-### 5.2.4. Recuperación y Reanudación 
+### 5.2.4 Recuperación y Reanudación 
 - **Evaluación del impacto:** Análisis del incidente y sus efectos en la operatividad. 
 - **Restauración de servicios:** Implementación del plan de recuperación según la criticidad del sistema afectado. 
 - **Pruebas y verificación:** Validación de la integridad de los datos y correcto funcionamiento. 
