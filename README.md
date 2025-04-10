@@ -1,6 +1,8 @@
 # PROYECTO CPD  
 **Frances Simó Olma**  
-**Jaime Climent Cardona** 
+
+**Jaime Climent Cardona**
+
 **Jonman Jimenez Mendoza**  
 
 ## ÍNDICE
