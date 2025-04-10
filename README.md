@@ -5,7 +5,7 @@
 
 ## ÍNDICE
 - [Sprint 1](#sprint1)
-  - [1.1 Objetos](1.1-Objetivos)    
+  - [1.1 Objetivos](1.1-Objetivos)    
 
 
 ---
