@@ -94,6 +94,21 @@
   - [4. Configuración del RAID 5](#4-configuración-del-raid-5)
     - [4.1 Mediante Hardware](#41-mediante-hardware)
     - [4.2 Mediante Software](#42-mediante-software)
+      
+- [Sprint 3](#sprint-3)
+  - [Implementación](#implementación)
+  - [1. Objetivo del informe](#1-objetivo-del-informe)
+  - [2. Materiales usados](#2-materiales-usados)
+  - [3. Instalación de Windows Server](#3-instalación-de-windows-server)
+    - [3.1 Instalación con uso de Ventoy](#31-instalación-con-uso-de-ventoy)
+  - [4. Configuración del RAID 5](#4-configuración-del-raid-5)
+    - [4.1 Mediante Hardware](#41-mediante-hardware)
+    - [4.2 Mediante Software](#42-mediante-software)
+
+- [Sprint 4](#sprint-4)
+  - [1. Documentación de RAID5](#1-documentación-de-raid5)
+  - [2. Pruebas de copias de seguridad](#2-pruebas-de-copias-de-seguridad)
+    - [2.1 Copia de seguridad completa](#21-copia-de-seguridad-completa)
 
 
 
