@@ -109,6 +109,7 @@
   - [1. Documentación de RAID5](#1-documentación-de-raid5)
   - [2. Pruebas de copias de seguridad](#2-pruebas-de-copias-de-seguridad)
     - [2.1 Copia de seguridad completa](#21-copia-de-seguridad-completa)
+    - [2.2 Copia de seguridad incremental](#22-copia-de-seguridad-incremental)
 
 
 
@@ -1128,7 +1129,7 @@ Seleccionar la opción de reparar el volumen para añadir un disco nuevo al raid
 
 ![](img/sprint4/aomei/image7.png)
 
-### Copia de seguridad incremental
+### 2.2 Copia de seguridad incremental
 
 Seleccionar la opción de hacer una copia de seguridad incremental respaldada en la copia completa hecha anteriormente.
 
