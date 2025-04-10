@@ -526,15 +526,16 @@ flexibilidad, ideal para usuarios exigentes, oficinas y empresariales pequeñas.
 
 ### Software 
 
-|**ELEMENTO** |**LICENCI** |<p>**COST (unidad)** </p><p>**SA**</p>|<p>**E** </p><p>**COSTE TOT** </p>|||
-| - | - | :- | - | - |
-|Sistema operativo servidores (Windows Server)|4 |0 € |0 € ||
-|Soporte empresarial (MySQL) |1 |2\.000 € |2\.000 € ||
-|Software de backup (Aomei Backup) |1 |700 € |700 € ||
-|Sistema de virtualización (VMWare Workstation Pro |1 |193 € |193 € ||
-|Antivirus y herramientas de seguridad (F-Secure) |10 |10 € |100 € ||
-|Monitorización (Pandora FMS) |1 |34 € |34 € ||
-||**3.027 €** ||||
+| ELEMENTO                                                  | LICENCIAS | COSTE (unidad) | COSTE TOTAL |
+|-----------------------------------------------------------|-----------|----------------|-------------|
+| Sistema operativo servidores (Windows Server)             | 4         | 0 €            | 0 €         |
+| Soporte empresarial (MySQL)                               | 1         | 2.000 €        | 2.000 €     |
+| Software de backup (Aomei Backup)                         | 1         | 700 €          | 700 €       |
+| Sistema de virtualización (VMWare Workstation Pro)        | 1         | 193 €          | 193 €       |
+| Antivirus y herramientas de seguridad (F-Secure)          | 10        | 10 €           | 100 €       |
+| Monitorización (Pandora FMS)                              | 1         | 34 €           | 34 €        |
+| **TOTAL**                                                 |           |                | **3.027 €** |
+
 
 **Sistema operativo servidores:**
 
