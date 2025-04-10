@@ -38,6 +38,7 @@
       - [5.2.1 Medidas Preventivas](#521-medidas-preventivas)
       - [5.2.4 Recuperación y Reanudación](#524-recuperación-y-reanudación)
       - [5.2.5 Sitio de respaldo](#525-sitio-de-respaldo)
+        
 - [Sprint 2](#sprint-2)
   - [1. Diseño de la arquitectura del diseño](#1-diseño-de-la-arquitectura-del-diseño)
   - [2. Selección de hardware y software](#2-selección-de-hardware-y-software)
@@ -83,6 +84,17 @@
   - [12. Procedimientos de Mantenimiento y Actualización](#12-procedimientos-de-mantenimiento-y-actualización)
     - [12.1 Plan de actualización de software](#121-plan-de-actualización-de-software)
     - [12.2 Monitoreo y alertas](#122-monitoreo-y-alertas)
+
+- [Sprint 3](#sprint-3)
+  - [Implementación](#implementación)
+  - [1. Objetivo del informe](#1-objetivo-del-informe)
+  - [2. Materiales usados](#2-materiales-usados)
+  - [3. Instalación de Windows Server](#3-instalación-de-windows-server)
+    - [3.1 Instalación con uso de Ventoy](#31-instalación-con-uso-de-ventoy)
+  - [4. Configuración del RAID 5](#4-configuración-del-raid-5)
+    - [4.1 Mediante Hardware](#41-mediante-hardware)
+    - [4.2 Mediante Software](#42-mediante-software)
+
 
 
 
@@ -827,16 +839,15 @@ Conexión eléctrica redundante mediante UPS y generadores. Distribución sin pu
 ---
 
 # SPRINT 3
-# Informe
-## <a name="_page2_x56.70_y101.90"></a>Objetivo<a name="_page2_x56.70_y147.55"></a> del informe
+## Implementación
+## 1. Objetivo<a del informe
 El propósito de este informe es detallar el proceso de instalación y configuración de un servidor Windows con RAID 5, así como la creación de una red LAN. Se pretende describir cada fase, de la implementación, tocando aspectos técnicos del hardware, la configuración del sistema operativo, la gestión del almacenamiento en RAID 5 y la organización de la red.
-2. # Materiales<a name="_page2_x56.70_y272.65"></a> usados
-## <a name="_page2_x56.70_y318.30"></a>2.1. Materiales usados
-1. ### Hardware
+## 2. Materiales usados
+### Hardware
 - <a name="_page2_x56.70_y358.65"></a>Ordenador:
 - Placa base:  Asus PRIME B250M-A.
 - Procesador: Intel® CPU G455560 @3.50GHz.
-- RAM: Cruzial 4096MB 2666MHz.![ref3]
+- RAM: Cruzial 4096MB 2666MHz.
 
 ![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.005.jpeg) ![](./imagenes3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.006.jpeg)
 
@@ -852,8 +863,8 @@ El propósito de este informe es detallar el proceso de instalación y configura
 - <a name="_page3_x56.70_y240.45"></a>Ventoy
 - ISO Windows Server 2022
 - GParted
-3. # Instalación<a name="_page3_x56.70_y347.35"></a> de Windows Server
-## <a name="_page3_x56.70_y393.00"></a>3.1. Instalación con uso de Ventoy
+## 3. Instalación de Windows Server
+### 3.1. Instalación con uso de Ventoy
 Haciendo uso del Ventoy y la iso de Windows Server 2022, llevaremos acabo la instalación de este.
 
 La instalación comienza con la elección del idioma, que permanecerá durante la 
@@ -896,35 +907,30 @@ Finalizada la instalación del Sistema Operativo Windows Server.
 
 ![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.015.png)
 
-
-4. # Configuración<a name="_page8_x56.70_y89.90"></a> del RAID 5
-1. ## Mediante<a name="_page8_x56.70_y135.55"></a> Hardware
-1. ### Primer<a name="_page8_x56.70_y175.90"></a> intento
+## 4. Configuración del RAID 5
+### 4.1 Mediante Hardware
+#### Primer intento
 Con una tarjeta controladora de RAID, proporcionada por el profesor.
-#### <a name="_page8_x56.70_y228.95"></a>4.1.1.1 Problemas
+#### Problemas
 La tarjeta controladora no era compatible con la placa base. No se pudo encontrar solución a esto asi que buscamos otra opción
-2. ### Segundo<a name="_page8_x56.70_y312.60"></a> Intento
+#### Segundo Intento
 Haciendo uso de la funcionalidad de Windows para crear RAIDs se intento conectar 4 discos a la maquina, siendo uno el del Sistema operativo y los tres para el RAID 5.
-#### <a name="_page8_x56.70_y397.55"></a>4.1.2.1 Problemas
+#### Problemas
 La fuente de alimentación solo puede dar energía máximo a tres discos duros a la vez, no tiene capacidad para admitir un cuarto disco.
-
-
-3. ### Tercer<a name="_page9_x56.70_y96.90"></a> Intento!
+### Tercer Intento
 También se intento fue conectar tres discos duros a la fuente de alimentación
 
 y haciendo uso de un adaptar de USB 3.0 a SATA 3, se instalo en una SSD de 120GB el Sistema operativo Windows Server, conectado al adaptador.
 
 ![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.016.jpeg)
-#### <a name="_page9_x56.70_y453.00"></a>4.1.3.1 Problemas
+#### Problemas
 El ordenador no tiene la capacidad para poder iniciar por BOOT el USB, dando pantallazos azules sin poder proseguir con el RAID 5 y perdiendo acceso al Windows Server.
-### <a name="_page9_x56.70_y536.65"></a>4.1.4 Conclusión
-Se llego a la conclusión que no era posible hacer un RAID 5 mediante Hardware, optando a realizar un RAID 5 por So ftwware.![ref3]
+#### Conclusión
+Se llego a la conclusión que no era posible hacer un RAID 5 mediante Hardware, optando a realizar un RAID 5 por So ftwware.
 
+### 4.2 Mediante Software
 
-
-2. Mediante<a name="_page10_x56.70_y99.90"></a> Softwware
-
-4\.2.1.Grupos de Almacenamiento
+#### Grupos de Almacenamiento
 
 Usamos un disco extra para realizar el RAID 5, primero hay que inicializar el disco. Esto se realizad des de Administración de Discos.
 
@@ -948,7 +954,6 @@ La letra asignada sera la D.
 Ahora crearemos 3 unidades vhd en el apartado Acción.
 
 ![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.022.png)
-
 
 
 Examinaremos donde queremos crear y guardar los archivos y el tamaño.
@@ -1038,7 +1043,7 @@ Podemos crear un RAID5 y ver el procedimiento de este.
 ![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.041.png)
 
 # SPRINT 4
-# DOCUMENTACIÓN DE RAID5
+## 1. DOCUMENTACIÓN DE RAID5
 >
 > Documentación de las pruebas de fallo del RAID 5 instalado en nuestro
 > servidor y de la recuperación de los datos almacenados.
