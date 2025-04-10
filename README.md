@@ -1045,124 +1045,81 @@ Podemos crear un RAID5 y ver el procedimiento de este.
 # SPRINT 4
 ## 1. DOCUMENTACIÓN DE RAID5
 
- Documentación de las pruebas de fallo del RAID 5 instalado en nuestro
- servidor y de la recuperación de los datos almacenados.
+ Documentación de las pruebas de fallo del RAID 5 instalado en nuestro servidor y de la recuperación de los datos almacenados.
 
- El primer paso será crear el raid 5, como podemos ver esta bien creado
- ya que no nos da ningún error.
+ El primer paso será crear el raid 5, como podemos ver esta bien creado ya que no nos da ningún error.
 
 ![](/img/sprint4/raid/image1.png)
 
  Después, se le añaden datos a la carpeta de almacenamiento del raid.
 
-![](/img/sprint4/raid/image2.png){width="4.375in"
-height="2.6041666666666665in"}
+![](/img/sprint4/raid/image2.png)
 
-> Simular el fallo del RAID eliminando la conexión de uno de los tres
-> discos
+Simular el fallo del RAID eliminando la conexión de uno de los tres discos
 
-![](/img/sprint4/raid/image3.png){width="4.301388888888889in"
-height="1.9902777777777778in"}
+![](/img/sprint4/raid/image3.png)
 
-> Vemos que el disco está desactivado ya que hemos provocado un fallo
-> para comprobar que está bien hecho.
+ Vemos que el disco está desactivado ya que hemos provocado un fallo para comprobar que está bien hecho.
 
-![](/img/sprint4/raid/image4.png){width="4.384722222222222in"
-height="2.2916666666666665in"}
+![](/img/sprint4/raid/image4.png)
+Seleccionar la opción de reparar el volumen para añadir un disco nuevo al raid.
 
-> Seleccionar la opción de reparar el volumen para añadir un disco nuevo
-> al raid.
+![](/img/sprint4/raid/image5.png)
 
-![](/img/sprint4/raid/image5.png){width="4.604166666666667in"
-height="2.0416666666666665in"}
+ Seleccionar el disco que se añadirá de nuevo al RAID para arreglarlo.
 
-> Seleccionar el disco que se añadirá de nuevo al RAID para arreglarlo.
+![](/img/sprint4/raid/image6.png)
 
-![](/img/sprint4/raid/image6.png){width="4.1875in"
-height="3.125in"}
+ Sincronizar discos ya recuperados para comprobar que no se ha perdido información.
 
-> Sincronizar discos ya recuperados para comprobar que no se ha perdido
-> información.
+![](/img/sprint4/raid/image7.png)
+ Para finalizar comprobamos que el disco esta activo y que no se ha perdido ninguna información.
 
-![](/img/sprint4/raid/image7.png){width="4.145833333333333in"
-height="3.5416666666666665in"}
+![](/img/sprint4/raid/image8.png)
 
-> Para finalizar comprobamos que el disco esta activo y que no se ha
-> perdido ninguna información.
+## 2. Pruebas de copias de seguridad
 
-![](/img/sprint4/raid/image8.png){width="4.384722222222222in"
-height="3.125in"}
+ Para hacer las pruebas de las copias de seguridad hemos seleccionado el software AOMEI Backupper en su versión para servidores.
 
-# PRUEBAS DE COPIAS DE SEGURIDAD
+### 2.1 Copia de seguridad completa
 
-> Para hacer las pruebas de las copias de seguridad hemos seleccionado
-> el software AOMEI Backupper en su versión para servidores.
->
-> **COPIA DE SEGURIDAD COMPLETA**
->
-> El primer paso que hemos llevado a cabo ha sido la instalación del
-> programa AOMEI Backupper. Una vez instalado y ejecutado elegimos la
-> opción de probar el servicio.
+ El primer paso que hemos llevado a cabo ha sido la instalación del programa AOMEI Backupper. Una vez instalado y ejecutado elegimos la opción de probar el servicio.
 
-![](img/sprint4/aomei/image1.png){width="6.270833333333333in"
-height="4.1152766841644794in"}
+![](img/sprint4/aomei/image1.png)
 
-> Después de haber instalado el Aomei tendremos que seleccionar la
-> opción de crear una nueva copia de seguridad
+ Después de haber instalado el Aomei tendremos que seleccionar la opción de crear una nueva copia de seguridad
 
-![](img/sprint4/aomei/image2.png){width="4.458333333333333in"
-height="2.9791666666666665in"}
+![](img/sprint4/aomei/image2.png)
 
-> El siguiente paso será crear una copia de seguridad del sistema ya que
-> lo que queremos es crear una imagen de todo el sistema.
+ El siguiente paso será crear una copia de seguridad del sistema ya que lo que queremos es crear una imagen de todo el sistema.
 
-![](img/sprint4/aomei/image3.png){width="4.426388888888889in"
-height="2.947221128608924in"}
+![](img/sprint4/aomei/image3.png)
+ A continuación seleccionaremos los discos y particiones de los que vamos hacer la copia. Además de la carpeta y el nombre que le pondremos a la nueva copia de seguridad.
 
-> A continuación seleccionaremos los discos y particiones de los que
-> vamos hacer la copia. Además de la carpeta y el nombre que le
-> pondremos a la nueva copia de seguridad.
+![](img/sprint4/aomei/image4.png)
+ Empieza a realizarse la copia en la carpeta seleccionada.
 
-![](img/sprint4/aomei/image4.png){width="4.426388888888889in"
-height="2.948611111111111in"}
+![](img/sprint4/aomei/image5.png)
+ Se finaliza la copia de seguridad.
 
-> Empieza a realizarse la copia en la carpeta seleccionada.
+![](img/sprint4/aomei/image6.png)
+ Al finalizar la copia ya tendremos los datos copiados en la carpeta seleccionada.
 
-![](img/sprint4/aomei/image5.png){width="4.541666666666667in"
-height="3.0416655730533684in"}
+![](img/sprint4/aomei/image7.png)
+### Copia de seguridad incremental
 
-> Se finaliza la copia de seguridad.
+Seleccionar la opción de hacer una copia de seguridad incremental
+ respaldada en la copia completa hecha anteriormente.
 
-![](img/sprint4/aomei/image6.png){width="4.729166666666667in"
-height="3.1458333333333335in"}
+> ![](img/sprint4/aomei/image8.png)
 
-> Al finalizar la copia ya tendremos los datos copiados en la carpeta
-> seleccionada.
+ Introducimos un comentario para saber que copia estamos creando.
 
-![](img/sprint4/aomei/image7.png){width="4.770833333333333in"
-height="3.176388888888889in"}
+![](img/sprint4/aomei/image9.png)
+ Comienza la copia de seguridad incremental.
 
-> **COPIA DE SEGURIDAD INCREMENTAL**
->
-> Seleccionar la opción de hacer una copia de seguridad incremental
-> respaldada en la copia completa hecha anteriormente.
->
-> ![](img/sprint4/aomei/image8.png){width="5.934722222222222in"
-> height="3.043054461942257in"}
->
-> Introducimos un comentario para saber que copia estamos creando.
+![](img/sprint4/aomei/image10.png)
+ Finaliza la copia de seguridad está hecha correctamente
 
-![](img/sprint4/aomei/image9.png){width="4.75in"
-height="3.3847222222222224in"}
-
-> Comienza la copia de seguridad incremental.
-
-![](img/sprint4/aomei/image10.png){width="4.541666666666667in"
-height="3.1972222222222224in"}
-
-> Finaliza la copia de seguridad está hecha correctamente
-
-![](img/sprint4/aomei/image11.png){width="4.593055555555556in"
-height="3.3027777777777776in"}
-
+![](img/sprint4/aomei/image11.png)
 
