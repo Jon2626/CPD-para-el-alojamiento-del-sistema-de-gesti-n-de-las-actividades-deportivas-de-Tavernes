@@ -477,14 +477,16 @@ La **Evaluación de Riesgos y Planificación de Contingencias** que se explicar�
 - **Suministro eléctrico redundante:** Uso de UPS. 
 - **Capacitación del personal:** Formación en seguridad y procedimientos de emergencia para empleados. 
 
-- **Respuesta a incidentes**:  
-| Incidente         | Acciones Inmediatas                                                       |
-|------------------|--------------------------------------------------------------------------|
-| Fallo de hardware | Conmutación a servidores de respaldo, aviso a soporte técnico         |
-| Ciberataque      | Aislamiento del sistema, análisis de logs, restauración de backup     |
-| Pérdida de datos | Restauración de la última copia de seguridad, análisis de causa       |
-| Corte eléctrico  | Uso de UPS y generador, notificación a proveedor eléctrico            |
-| Incendio/Inundación | Activación de protocolos de evacuación, traslado a sitio alternativo |
+- **Respuesta a incidentes**:
+  
+| Incidente         | Acciones Inmediatas                                                                 |
+|-------------------|-------------------------------------------------------------------------------------|
+| Fallo de hardware | Conmutación a servidores de respaldo, aviso a soporte técnico                      |
+| Ciberataque       | Aislamiento del sistema, análisis de logs, restauración de backup                  |
+| Pérdida de datos  | Restauración de la última copia de seguridad, análisis de causa                    |
+| Corte eléctrico   | Uso de UPS y generador, notificación a proveedor eléctrico                         |
+| Incendio/Inundación | Activación de protocolos de evacuación, traslado a sitio alternativo             |
+
 
 ### 5.2.4 Recuperación y Reanudación 
 - **Evaluación del impacto:** Análisis del incidente y sus efectos en la operatividad. 
