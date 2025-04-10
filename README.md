@@ -1044,17 +1044,16 @@ Podemos crear un RAID5 y ver el procedimiento de este.
 
 # SPRINT 4
 ## 1. DOCUMENTACIÓN DE RAID5
->
-> Documentación de las pruebas de fallo del RAID 5 instalado en nuestro
-> servidor y de la recuperación de los datos almacenados.
->
-> El primer paso será crear el raid 5, como podemos ver esta bien creado
-> ya que no nos da ningún error.
 
-![](/img/sprint4/raid/image1.png){width="4.354166666666667in"
-height="2.25in"}
+ Documentación de las pruebas de fallo del RAID 5 instalado en nuestro
+ servidor y de la recuperación de los datos almacenados.
 
-> Después, se le añaden datos a la carpeta de almacenamiento del raid.
+ El primer paso será crear el raid 5, como podemos ver esta bien creado
+ ya que no nos da ningún error.
+
+![](/img/sprint4/raid/image1.png)
+
+ Después, se le añaden datos a la carpeta de almacenamiento del raid.
 
 ![](/img/sprint4/raid/image2.png){width="4.375in"
 height="2.6041666666666665in"}
