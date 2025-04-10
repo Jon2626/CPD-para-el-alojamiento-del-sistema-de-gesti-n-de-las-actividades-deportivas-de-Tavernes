@@ -218,7 +218,7 @@ Las **Tareas en equipo** que se abordarán a continuación incluyen la planifica
 Al firmar este documento se está de acuerdo y comprometen a cumplir con las tareas y responsabilidades asignadas. 
 
 <img src="/img/sprint1/Aspose.Words.d33e57a9-2320-4bfb-a090-966139295fa7.008.png" width="70%" height="100" alt="Mi Foto">
-Jonman Jiménez Mendoza Jaime Climent Cardona Frances Simó Olmo 
+Jonman Jiménez Mendoza        Jaime Climent Cardona        Frances Simó Olmo 
 
 ---
 
