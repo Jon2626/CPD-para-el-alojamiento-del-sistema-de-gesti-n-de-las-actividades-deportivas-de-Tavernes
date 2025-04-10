@@ -563,39 +563,39 @@ de bases de datos donde se requiere alta disponibilidad y buen rendimiento.
 - La virtualización permite ejecutar varios sistemas operativos en un solo equipo, lo que reduce la necesidad de hardware adicional y optimiza los recursos.
 - Proporciona opciones de cifrado de máquinas virtuales y control de acceso.
 
-## 2. Diseño de la seguridad del sistema
+## 3. Diseño de la seguridad del sistema
 
-## 1. Medidas de protección contra amenazas
+## 3.1 Medidas de protección contra amenazas
 
-### 1.1. Amenazas externas
+### 3.1.1 Amenazas externas
 
-#### 1.1.1. Protección contra ciberataques
+#### 3.1.1.1 Protección contra ciberataques
 - **Firewall y sistemas de detección de intrusos**: Se deben implementar firewalls y realizar un monitoreo constante del tráfico de red en los servidores.
 - **Autenticación multifactor (MFA)**: Es recomendable su uso para accesos sensibles y tareas administrativas.
 - **Cifrado de datos**: Cifrar la información que se transmite entre los servidores y entre servidores y clientes.
 - **Pruebas de seguridad**: Realizar evaluaciones periódicas para identificar y corregir vulnerabilidades.
 
-#### 1.1.2. Protección contra interrupciones de red
+#### 3.1.1.2 Protección contra interrupciones de red
 - **Redundancia en la conexión**: Contratar múltiples proveedores de internet y utilizar enlaces de respaldo.
 - **Balanceadores de carga**: Distribuir el tráfico para evitar sobrecargas en los servidores.
 - **Mitigación de ataques DDoS**: Implementar servicios especializados para detectar y neutralizar este tipo de ataques.
 
-#### 1.1.3. Protección contra intrusión física
+#### 3.1.1.3 Protección contra intrusión física
 - **Control de acceso con tarjetas**: Usar tarjetas de proximidad para restringir el acceso físico al CPD exclusivamente a personal autorizado.
 - **Cámaras de vigilancia**: Instalar un sistema de videovigilancia activo las 24 horas en todas las áreas del CPD.
 - **Guardias de seguridad**: Contar con personal de seguridad para evitar accesos no autorizados.
 
-#### 1.1.4. Protección contra desastres naturales
+#### 3.1.1.4 Protección contra desastres naturales
 - **Infraestructura resistente**: Diseñar el CPD con materiales capaces de soportar condiciones extremas.
 - **Sistema de extinción de incendios**: Instalar un sistema con gas inerte para apagar incendios sin dañar los equipos.
 - **Monitoreo ambiental**: Usar sensores de temperatura, humedad y humo para conocer el estado del entorno en todo momento.
 
-#### 1.1.5. Protección contra cortes de energía
+#### 3.1.1.5 Protección contra cortes de energía
 - **Sistema de alimentación ininterrumpida (SAI)**: Garantizar suministro eléctrico temporal ante apagones.
 - **Generadores de respaldo**: Contar con generadores que mantengan el CPD operativo si el SAI falla.
 - **Monitoreo eléctrico**: Vigilar el voltaje y la corriente para evitar daños por fluctuaciones.
 
-### 1.2. Amenazas internas
+### 3.1.2 Amenazas internas
 - **Capacitación del personal**: Formación continua en buenas prácticas de seguridad y gestión de datos.
 - **Gestión de accesos y privilegios**: Aplicar el principio de mínimo privilegio y monitorizar los accesos.
 - **Supervisión de actividad interna**: Registrar e inventariar las actividades en servidores y bases de datos.
@@ -603,32 +603,32 @@ de bases de datos donde se requiere alta disponibilidad y buen rendimiento.
 
 ---
 
-## 2. Políticas de seguridad de acceso a los recursos del CPD
+## 3.2 Políticas de seguridad de acceso a los recursos del CPD
 
 - **Acceso remoto seguro**: Uso de VPN con cifrado y restricciones a redes no autorizadas.
 - **Contraseñas**: Establecer contraseñas seguras y obligar su renovación cada 3 meses.
 - **Permisos**: Asignar únicamente los permisos estrictamente necesarios a cada usuario.
 
-# PLAN DE RECUPERACIÓN ANTE DESASTRES
+## 4. Plan de recuperación ante desastres
 
 Este apartado describe el plan de recuperación ante desastres para garantizar la operatividad del CPD en caso de incidentes que pongan en peligro su actividad.
 
-## 1. Copias de seguridad
+## 4.1 Copias de seguridad
 
-### 1.1. Tipos de copias
+### 4.1.1 Tipos de copias
 - **Copias de seguridad incrementales**: Se realizarán diariamente.
 - **Copias de seguridad diferenciales**: Se realizarán semanalmente.
 - **Copias de seguridad completas**: Se realizarán mensualmente.
 
-### 1.2. Almacenamiento seguro
+### 4.1.2 Almacenamiento seguro
 - **Almacenamiento local**: Uso de sistemas RAID y NAS.
 - **Almacenamiento externo**: Uso de un servidor en una ubicación alternativa.
 - **Almacenamiento en la nube**: Soluciones cifradas de almacenamiento remoto.
 - **Cifrado de datos**: Implementación del sistema AES-256 para todos los datos.
 
-## 2. Restauración de datos
+## 4.2. Restauración de datos
 
-### 2.1. Pasos para la restauración
+### 4.2.1. Pasos para la restauración
 1. **Identificación**: Determinar la causa del fallo del sistema.
 2. **Evaluación**: Medir el alcance del daño en los sistemas y datos.
 3. **Restauración inicial**: Recuperar los servidores principales.
