@@ -17,7 +17,7 @@
   - [2. Documento de Roles y Responsabilidades](#2-documento-de-roles-y-responsabilidades)
     - [2.1 Roles y Responsabilidades](#21-roles-y-responsabilidades)
       - [2.1.1 Rol 1](#211-rol-1)
-      - [2.1.2 Rol 2](212-rol-2)
+      - [2.1.2 Rol 2](#212-rol-2)
 
 
 ---
@@ -167,7 +167,7 @@ Las **Tareas en equipo** que se abordarán a continuación incluyen la planifica
   - Fecha inicio: 20-01-25 
   - Fecha final: 23-01-25 
 
-### 2.3.1. Mirmbros involucrados  
+### 2.3.1 Miembros involucrados  
 - Jonman Jiménez Mendoza-Líder del Proyecto  
 - Jaime Climent Cardona-Administrador de Infraestructra TI  
 - Frances Simó Olmo-Gestor de Riesgos
@@ -180,13 +180,13 @@ Jonman Jiménez Mendoza Jaime Climent Cardona Frances Simó Olmo
 
 ---
 
-## 3. Análisis de Requisitos  
+## 3 Análisis de Requisitos  
 El **Análisis de Requisitos** que se presentará el análisis que incluyen, materiales, de seguridad, rendimiento y escalabilidad. 
 ### 3.1 Materiales que se van a utilizar 
 #### 3.1.1 Requisitos de Maquinaria
 Todo el hardware que se va a necesitar. 
 
-##### 3.1.1.1. Servidores
+##### 3.1.1.1 Servidores
 - **Servidor de aplicaciones:** 
   - Procesador: Mínimo 8 núcleos (AMD EPYC). 
   - Memoria RAM: 32 GB escalable a 64 GB. 
@@ -202,56 +202,56 @@ Todo el hardware que se va a necesitar.
   - Memoria RAM: 16 GB. 
   - Almacenamiento: 4 TB HDD para backups incrementales y totales. 
 
-##### 3.1.1.2. Estaciones de trabajo 
+##### 3.1.1.2 Estaciones de trabajo 
 - Procesador: Intel i5 o equivalente. 
 - Memoria RAM: 8 GB. 
 - Almacenamiento: SSD de 512 GB. 
 - Sistema operativo: Windows Server 22 (nos ofrecen la licencia el ayuntamiento). 
 
-##### 3.1.1.3. Equipos de red 
+##### 3.1.1.3 Equipos de red 
 - Switches de red Gigabit con soporte para VLAN. 
 - Routers con redundancia y balanceo de carga. 
 - Firewall hardware para protección perimetral. 
 - Puntos de acceso Wifi de doble banda (2.4 GHz y 5 GHz). 
 
-##### 3.1.1.4. Almacenamiento en red (NAS) 
+##### 3.1.1.4 Almacenamiento en red (NAS) 
 - Capacidad: 10 TB escalable. 
 - Soporte para RAID y replicación de datos. 
 - Compatible con protocolos SMB y NFS. 
 
 #### 3.1.2 Requisitos de Software
 Todo el software que se va a necesitar 
-##### 3.1.2.1. Sistema de gestión 
+##### 3.1.2.1 Sistema de gestión 
 - Aplicación web para inscripciones y reservas. 
 - Compatible con navegadores modernos (Chrome, Edge, Firefox). 
 - Integración con pasarelas de pago seguras. 
 - Soporte para múltiples idiomas. 
 
-##### 3.1.2.2. Bases de datos 
+##### 3.1.2.2 Bases de datos 
 - PostgreSQL o MySQL. 
 - Herramientas de replicación y respaldo automático.
 
-##### 3.1.2.3. Seguridad 
+##### 3.1.2.3 Seguridad 
 - Software de monitorización de red. 
 - Antivirus y sistemas de detección de intrusiones. 
 - Certificados SSL para comunicaciones seguras. 
 
-##### 3.1.2.4. Otras herramientas 
+##### 3.1.2.4 Otras herramientas 
 - Sistema de virtualización: VMware o Proxmox. 
 - Software de backup: Veeam o Bacula. 
 
 #### 3.1.3 Infraestructura de Red  
-##### 3.1.3.1. Conectividad 
+##### 3.1.3.1 Conectividad 
 - Conexión principal de alta velocidad: Mínimo 1 Gbps. 
 - Conexión redundante con proveedor diferente para garantizar la continuidad del servicio. 
 
-##### 3.1.3.2. Diseño de red 
+##### 3.1.3.2 Diseño de red 
 - Segmentación de red mediante VLANs: 
 - Red para gestión interna. 
 - Red para usuarios finales. 
 - Red de servidores.
 
-##### 3.1.3.3. Seguridad 
+##### 3.1.3.3 Seguridad 
 - Firewall perimetral con inspección profunda de paquetes. 
   - IPSec, encriptación de y autentificación de trafico de red. 
   - SNORT; Detección y prevención de intrusiones. 
@@ -265,7 +265,7 @@ Todo el software que se va a necesitar
   - OAuth; Para autentificación federada en aplicaciones web. 
   - RADIUS; Autentificación de usuarios en la red wifi empresarial.  
 
-##### 3.1.3.4. Monitorización #
+##### 3.1.3.4 Monitorización 
 - Implementación de herramientas de monitorización y alerta. 
 - Gráficos en tiempo real de consumo de ancho de banda y estado del hardware. 
 
