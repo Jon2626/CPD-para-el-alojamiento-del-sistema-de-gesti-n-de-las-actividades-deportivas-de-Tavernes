@@ -4,8 +4,10 @@
 **Jonman Jimenez Mendoza**  
 
 ## ÍNDICE
-- [Sprint 1](#sprint1)
-  - [1.1 Objetivos](1.1-Objetivos)    
+
+- [Sprint 1](#sprint-1)
+  - [1.1 CPD para el alojamiento del sistema de gestión de las actividades deportivas de Tavernes](#11-cpd-para-el-alojamiento-del-sistema-de-gestión-de-las-actividades-deportivas-de-tavernes)
+    - [1.1.1 Objetivos](#111-objetivos)
 
 
 ---
