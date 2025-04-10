@@ -1094,31 +1094,37 @@ Seleccionar la opción de reparar el volumen para añadir un disco nuevo al raid
  El siguiente paso será crear una copia de seguridad del sistema ya que lo que queremos es crear una imagen de todo el sistema.
 
 ![](img/sprint4/aomei/image3.png)
+
  A continuación seleccionaremos los discos y particiones de los que vamos hacer la copia. Además de la carpeta y el nombre que le pondremos a la nueva copia de seguridad.
 
 ![](img/sprint4/aomei/image4.png)
+
  Empieza a realizarse la copia en la carpeta seleccionada.
 
 ![](img/sprint4/aomei/image5.png)
+
  Se finaliza la copia de seguridad.
 
 ![](img/sprint4/aomei/image6.png)
+
  Al finalizar la copia ya tendremos los datos copiados en la carpeta seleccionada.
 
 ![](img/sprint4/aomei/image7.png)
+
 ### Copia de seguridad incremental
 
-Seleccionar la opción de hacer una copia de seguridad incremental
- respaldada en la copia completa hecha anteriormente.
+Seleccionar la opción de hacer una copia de seguridad incremental respaldada en la copia completa hecha anteriormente.
 
 > ![](img/sprint4/aomei/image8.png)
 
  Introducimos un comentario para saber que copia estamos creando.
 
 ![](img/sprint4/aomei/image9.png)
+
  Comienza la copia de seguridad incremental.
 
 ![](img/sprint4/aomei/image10.png)
+
  Finaliza la copia de seguridad está hecha correctamente
 
 ![](img/sprint4/aomei/image11.png)
