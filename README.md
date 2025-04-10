@@ -445,11 +445,11 @@ La **Evaluación de Riesgos y Planificación de Contingencias** que se explicar�
 
 # Sprint 2
 
-## 3.1. Diseño de la arquitectura del diseño
+## 1. Diseño de la arquitectura del diseño
 
 <img src="/img/sprint1/1. Diseño de la arquitectura del diseño.jpg" width="50%" height="auto" alt="Mi Foto">
 
-## 3.2 Selección de hardware y software 
+## 2. Selección de hardware y software 
 
 ### Hardware 
 
@@ -524,17 +524,17 @@ flexibilidad, ideal para usuarios exigentes, oficinas y empresariales pequeñas.
 
 - El SAI protege contra sobrecargas y cortocircuitos y cuenta con apagado automático cuando la batería está baja para evitar dañar tus dispositivos.
 
-**Software** 
+### Software 
 
 |**ELEMENTO** |**LICENCI** |<p>**COST (unidad)** </p><p>**SA**</p>|<p>**E** </p><p>**COSTE TOT** </p>|||
-| - | - | :- | - | :- | :- |
-|Sistema operativo servidores (Windows Server)|4 |0 € |0 € |||
-|Soporte empresarial (MySQL) |1 |2\.000 € |2\.000 € |||
-|Software de backup (Aomei Backup) |1 |700 € |700 € |||
-|Sistema de virtualización (VMWare Workstation Pro |1 |193 € |193 € |||
-|Antivirus y herramientas de seguridad (F-Secure) |10 |10 € |100 € |||
-|Monitorización (Pandora FMS) |1 |34 € |34 € |||
-||**3.027 €** |||||
+| - | - | :- | - |
+|Sistema operativo servidores (Windows Server)|4 |0 € |0 € |
+|Soporte empresarial (MySQL) |1 |2\.000 € |2\.000 € |
+|Software de backup (Aomei Backup) |1 |700 € |700 € |
+|Sistema de virtualización (VMWare Workstation Pro |1 |193 € |193 € |
+|Antivirus y herramientas de seguridad (F-Secure) |10 |10 € |100 € |
+|Monitorización (Pandora FMS) |1 |34 € |34 € |
+||**3.027 €** |||
 
 **Sistema operativo servidores:**
 
