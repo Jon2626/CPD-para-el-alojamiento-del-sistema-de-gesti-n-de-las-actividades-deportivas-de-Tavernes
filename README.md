@@ -1,6 +1,6 @@
 # PROYECTO CPD  
 **Frances Simó Olma**  
-**Jaime Climent Cardona**  
+**Jaime Climent Cardona** 
 **Jonman Jimenez Mendoza**  
 
 ## ÍNDICE
@@ -8,7 +8,7 @@
 
 
 ---
-# Sprint 1
+## Sprint 1
 
 ## 1. CPD para el alojamiento del sistema de gestión de las actividades deportivas de Tavernes  
 ### 1.1 Objetivos  
