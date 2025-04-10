@@ -563,7 +563,7 @@ de bases de datos donde se requiere alta disponibilidad y buen rendimiento.
 - La virtualización permite ejecutar varios sistemas operativos en un solo equipo, lo que reduce la necesidad de hardware adicional y optimiza los recursos.
 - Proporciona opciones de cifrado de máquinas virtuales y control de acceso.
 
-## DISEÑO DE LA SEGURIDAD DEL SISTEMA
+## 2. Diseño de la seguridad del sistema
 
 ## 1. Medidas de protección contra amenazas
 
