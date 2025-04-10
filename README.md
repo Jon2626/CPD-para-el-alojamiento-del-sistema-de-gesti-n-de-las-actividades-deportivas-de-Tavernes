@@ -9,9 +9,9 @@
   - [1 CPD para el alojamiento del sistema de gestión de las actividades deportivas de Tavernes](#1-cpd-para-el-alojamiento-del-sistema-de-gestión-de-las-actividades-deportivas-de-tavernes)
     - [1.1 Objetivos](#11-objetivos)
     - [1.2 Requisitos](#12-requisitos)
-    - [1.2.1 Requisitos del sistema de Gestión](#121-requisitos-del-sistema-de-gestión)
-    - [1.2.2 Requisitos del CPD](#122-requisitos-del-cpd)
-  - [1.3 WBS](#13-wbs)
+      - [1.2.1 Requisitos del sistema de Gestión](#121-requisitos-del-sistema-de-gestión)
+      - [1.2.2 Requisitos del CPD](#122-requisitos-del-cpd)
+    - [1.3 WBS](#13-wbs)
 
 
 ---
