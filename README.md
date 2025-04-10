@@ -628,36 +628,36 @@ Este apartado describe el plan de recuperación ante desastres para garantizar l
 
 ## 4.2. Restauración de datos
 
-### 4.2.1. Pasos para la restauración
+### 4.2.1 Pasos para la restauración
 1. **Identificación**: Determinar la causa del fallo del sistema.
 2. **Evaluación**: Medir el alcance del daño en los sistemas y datos.
 3. **Restauración inicial**: Recuperar los servidores principales.
 4. **Restauración de bases de datos**: Implementar las copias de seguridad más recientes.
 5. **Verificación y pruebas**: Evaluar la integridad y funcionalidad de los sistemas restaurados.
 
-### 2.2. Procedimientos de recuperación
+### 4.2.2 Procedimientos de recuperación
 - **Recuperación con snapshots**: Utilizar imágenes almacenadas en entornos de almacenamiento redundantes.
 - **Restauración desde servidores alternativos**: Activar los entornos de respaldo en servidores remotos.
 
-## 3. Mecanismos redundantes
+## 5. Mecanismos redundantes
 
-### 3.1. Redundancia en el almacenamiento
+### 5.1 Redundancia en el almacenamiento
 - **RAID**: Garantizar la recuperación y disponibilidad de los datos. Se utilizará **RAID 5** por su equilibrio entre rendimiento, redundancia y capacidad.
 - **Almacenamiento SATA**: Uso de discos de alta velocidad para garantizar la eficiencia operativa.
 
-### 3.2. Infraestructura alternativa
+### 6.2 Infraestructura alternativa
 - **Servidores de respaldo**: Servidor implementado en una ubicación distinta al CPD principal.
 - **Balanceo de carga**: Distribuir el tráfico de forma equitativa para evitar saturaciones.
 - **Energía redundante**: Uso de sistemas UPS y generadores de emergencia.
 
-## 4. Protocolos ante desastres
+## 7. Protocolos ante desastres
 
-### 4.1. Plan de acción
+### 7.1 Plan de acción
 - **Roles**: Definir responsabilidades claras para el personal de informática y administración.
 - **Protocolos de comunicación**: Coordinar equipos internos y externos de manera efectiva.
 - **Escalamiento**: Establecer niveles y tiempos de respuesta ante distintos tipos de incidentes.
 
-### 4.2. Pruebas regulares del plan
+### 7.2 Pruebas regulares del plan
 - **Pruebas trimestrales**: Simulación de recuperación de sistemas críticos.
 - **Evaluación de fallos**: Análisis de vulnerabilidades detectadas y mejora continua.
 - **Actualización del plan**: Revisión periódica en función de nuevas amenazas o necesidades operativas.
