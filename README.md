@@ -504,7 +504,7 @@ La **Evaluación de Riesgos y Planificación de Contingencias** que se explicar�
 
 ## 1. Diseño de la arquitectura del diseño
 
-<img src="/img/sprint1/1. Diseño de la arquitectura del diseño.jpg" width="50%" height="auto" alt="Mi Foto">
+<img src="/img/sprint1/1. Diseño de la arquitectura del diseñov2.jpg" width="50%" height="auto" alt="Mi Foto">
 
 Se ha elegido esta sala de servidores porque cumple con los requisitos de seguridad, ventilación y accesibilidad necesarios para un correcto funcionamiento. Además, ofrece el espacio adecuado para la instalación y mantenimiento del equipo, garantizando una infraestructura estable y eficiente.
 
