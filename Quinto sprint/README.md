@@ -11,7 +11,7 @@ Este proyecto tiene como objetivo la planificación e implementación de un Cent
 - Garantizar escalabilidad y alta disponibilidad del sistema.
 - Incorporar una app móvil para mejorar la experiencia del usuario.
 
-## 🛠 Arquitectura del CPD
+##  Arquitectura del CPD
 
 ### Infraestructura
 - **Ubicación física:** Sala de servidores con ventilación, seguridad y accesibilidad óptimas.
