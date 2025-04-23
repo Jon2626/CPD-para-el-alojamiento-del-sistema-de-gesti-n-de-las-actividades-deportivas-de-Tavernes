@@ -506,6 +506,11 @@ La **Evaluación de Riesgos y Planificación de Contingencias** que se explicar�
 
 <img src="/img/sprint1/1. Diseño de la arquitectura del diseñov2.jpg" width="50%" height="auto" alt="Mi Foto">
 
+Vlans:
+Vlan Estaciones: 192.168.10.0
+Vlans Servidores: 192.168.20.0
+Vlan Backups: 192.168.30.0
+
 Se ha elegido esta sala de servidores porque cumple con los requisitos de seguridad, ventilación y accesibilidad necesarios para un correcto funcionamiento. Además, ofrece el espacio adecuado para la instalación y mantenimiento del equipo, garantizando una infraestructura estable y eficiente.
 
 Por otra parte, se han creado tres VLANs: una destinada a las estaciones, con el fin de no mezclar información y evitar la saturación de la red; otra para los servidores, con el objetivo de incrementar la seguridad y la fiabilidad; y una tercera para backups, ya que se requiere un espacio separado para almacenar toda la información. Además, se ha instalado un servidor de respaldo en otro edificio como medida de prevención ante riesgos como incendios, inundaciones, etc., con el propósito de no perder los datos almacenados y permitir el balanceo de carga, es decir, transferir toda la información al servidor de respaldo en caso necesario.
@@ -728,12 +733,6 @@ Este apartado describe el plan de recuperación ante desastres para garantizar l
 ## 8.1 Descripción general del CPD
 
 El CPD está diseñado para alojar el sistema de gestión de actividades deportivas de Tavernes, garantizando un entorno seguro, escalable y de alta disponibilidad. La arquitectura incluye la segmentación en diferentes VLAN para separar el tráfico de gestión, el de servidores y el de respaldo, lo que optimiza el rendimiento y facilita la administración.
-
-## 8.2 Diagrama de arquitectura
-
-<img src="/img/sprint1/1. Diseño de la arquitectura del diseño.jpg" width="50%" height="auto" alt="Mi Foto">
-
-
 ---
 
 ## 9. Infraestructura Física
