@@ -506,6 +506,10 @@ La **Evaluación de Riesgos y Planificación de Contingencias** que se explicar�
 
 <img src="/img/sprint1/1. Diseño de la arquitectura del diseño.jpg" width="50%" height="auto" alt="Mi Foto">
 
+Se ha elegido esta sala de servidores porque cumple con los requisitos de seguridad, ventilación y accesibilidad necesarios para un correcto funcionamiento. Además, ofrece el espacio adecuado para la instalación y mantenimiento del equipo, garantizando una infraestructura estable y eficiente.
+
+Por otra parte, se han creado tres VLANs: una destinada a las estaciones, con el fin de no mezclar información y evitar la saturación de la red; otra para los servidores, con el objetivo de incrementar la seguridad y la fiabilidad; y una tercera para backups, ya que se requiere un espacio separado para almacenar toda la información. Además, se ha instalado un servidor de respaldo en otro edificio como medida de prevención ante riesgos como incendios, inundaciones, etc., con el propósito de no perder los datos almacenados y permitir el balanceo de carga, es decir, transferir toda la información al servidor de respaldo en caso necesario.
+
 ## 2. Selección de hardware y software 
 
 ### Hardware 
