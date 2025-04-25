@@ -184,7 +184,7 @@ También se intento fue conectar tres discos duros a la fuente de alimentación
 
 y haciendo uso de un adaptar de USB 3.0 a SATA 3, se instalo en una SSD de 120GB el Sistema operativo Windows Server, conectado al adaptador.
 
-![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.016.jpeg)
+![](/img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.016.jpeg)
 #### Problemas
 El ordenador no tiene la capacidad para poder iniciar por BOOT el USB, dando pantallazos azules sin poder proseguir con el RAID 5 y perdiendo acceso al Windows Server.
 #### Conclusión
@@ -196,113 +196,113 @@ Se llego a la conclusión que no era posible hacer un RAID 5 mediante Hardware, 
 
 Usamos un disco extra para realizar el RAID 5, primero hay que inicializar el disco. Esto se realizad des de Administración de Discos.
 
-![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.017.png)
+![](/img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.017.png)
 
 Se debe crear un nuevo volumen simple.
 
-![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.018.png)
+![](/img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.018.png)
 
 
 Tambien hay que reducir el tamaño del disco del sistema operativo o añadir un nuevo disco. Y añadir un disco vacio.
 
-![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.019.png)
+![](/img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.019.png)
 
-![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.020.png)
+![](/img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.020.png)
 
 La letra asignada sera la D.
 
-![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.021.png)
+![](/img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.021.png)
 
 Ahora crearemos 3 unidades vhd en el apartado Acción.
 
-![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.022.png)
+![](/img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.022.png)
 
 
 Examinaremos donde queremos crear y guardar los archivos y el tamaño.
 
-![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.023.png)
+![](/img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.023.png)
 
-![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.024.png)
+![](/img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.024.png)
 
 
 Ahora ya tenemos los discos creados.
 
-![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.025.png)
+![](/img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.025.png)
 
 Para continuar con en el Administrador del servidor nos dirigiremos a Servicios de archivos y de almacenamiento.
 
-![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.026.png)
+![](/img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.026.png)
 
 Dentro a Grupo de almacenamiento.
 
-![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.027.png)
+![](/img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.027.png)
 
 
 Debemos actualizar para buscar el grupo primordial.
 
-![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.028.png)
+![](/img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.028.png)
 
 Ahora nuevo grupo.
 
-![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.029.png)
+![](/img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.029.png)
 
 
 
 Y ahora los pasos mas importantes. Asignar un  nombre a el grupo:
 
-![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.030.png)
+![](/img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.030.png)
 
 Seleccionar el disco físico.
 
-![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.031.png)
+![](/img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.031.png)
 
 
 Crear el grupo de volúmenes.
 
-![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.032.png)
+![](/img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.032.png)
 
 Esperamos que el proceso termine y cerramos la ventana.
 
-![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.033.png)
+![](/img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.033.png)
 
 
 Lo siguiente seria ir a Discos virtuales, donde tenemos que añadir el grupo que habíamos creado.
 
-![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.034.png)
+![](/img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.034.png)
 
-![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.035.png)
+![](/img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.035.png)
 
 
 Ahora crearemos un nuevo disco virtual. Estas acciones las haremos para los tres discos.
 
 Nombre:
 
-![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.036.png)
+![](/img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.036.png)
 
 La distribución debe ser simple para que funcione.
 
-![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.037.png)
+![](/img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.037.png)
 
 
 Aprovisionamiento Fijo.
 
-![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.038.png)
+![](/img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.038.png)
 
 El tamaño que deseamos o máximo.
 
-![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.039.png)
+![](/img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.039.png)
 
 
 
 Luego seria crear.
 
-![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.040.png)
+![](/img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.040.png)
 
 Ahora en administrador de discos.
 
 Podemos crear un RAID5 y ver el procedimiento de este.
 
-![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.041.png)
+![](/img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.041.png)
 
 
 ## 2.3.2 Pruebas del RAID5
@@ -343,53 +343,53 @@ Seleccionar la opción de reparar el volumen para añadir un disco nuevo al raid
 
  Para hacer las pruebas de las copias de seguridad hemos seleccionado el software AOMEI Backupper en su versión para servidores.
 
-### 2.1 Copia de seguridad completa
+### Copia de seguridad completa
 
  El primer paso que hemos llevado a cabo ha sido la instalación del programa AOMEI Backupper. Una vez instalado y ejecutado elegimos la opción de probar el servicio.
 
-![](img/sprint4/aomei/image1.png)
+![](/img/sprint4/aomei/image1.png)
 
  Después de haber instalado el Aomei tendremos que seleccionar la opción de crear una nueva copia de seguridad
 
-![](img/sprint4/aomei/image2.png)
+![](/img/sprint4/aomei/image2.png)
 
  El siguiente paso será crear una copia de seguridad del sistema ya que lo que queremos es crear una imagen de todo el sistema.
 
-![](img/sprint4/aomei/image3.png)
+![](/img/sprint4/aomei/image3.png)
 
  A continuación seleccionaremos los discos y particiones de los que vamos hacer la copia. Además de la carpeta y el nombre que le pondremos a la nueva copia de seguridad.
 
-![](img/sprint4/aomei/image4.png)
+![](/img/sprint4/aomei/image4.png)
 
  Empieza a realizarse la copia en la carpeta seleccionada.
 
-![](img/sprint4/aomei/image5.png)
+![](/img/sprint4/aomei/image5.png)
 
  Se finaliza la copia de seguridad.
 
-![](img/sprint4/aomei/image6.png)
+![](/img/sprint4/aomei/image6.png)
 
  Al finalizar la copia ya tendremos los datos copiados en la carpeta seleccionada.
 
-![](img/sprint4/aomei/image7.png)
+![](/img/sprint4/aomei/image7.png)
 
-### 2.2 Copia de seguridad incremental
+### Copia de seguridad incremental
 
 Seleccionar la opción de hacer una copia de seguridad incremental respaldada en la copia completa hecha anteriormente.
 
-> ![](img/sprint4/aomei/image8.png)
+> ![](/img/sprint4/aomei/image8.png)
 
  Introducimos un comentario para saber que copia estamos creando.
 
-![](img/sprint4/aomei/image9.png)
+![](/img/sprint4/aomei/image9.png)
 
  Comienza la copia de seguridad incremental.
 
-![](img/sprint4/aomei/image10.png)
+![](/img/sprint4/aomei/image10.png)
 
  Finaliza la copia de seguridad está hecha correctamente
 
-![](img/sprint4/aomei/image11.png)
+![](/img/sprint4/aomei/image11.png)
 
 ##  Equipo de Desarrollo
 - Frances Simó Olma  
