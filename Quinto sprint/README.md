@@ -166,38 +166,232 @@ Se propuso capacitar al personal, gestionar adecuadamente los accesos con privil
 ### 2.2.2 Políticas de acceso
 Se establecieron reglas como la obligación de utilizar VPN cifradas para accesos remotos, la implementación de contraseñas seguras que se actualizan cada tres meses, y la asignación de permisos mínimos necesarios para cada usuario.
 
+## 2.3 Plan de recuperación ante desastres
+Para garantizar la continuidad operativa del CPD ante incidentes, se diseñó un plan de recuperación. Se estableció un sistema de copias de seguridad con tres tipos: incrementales (diarias), diferenciales (semanales) y completas (mensuales). Estas copias se almacenan en sistemas locales (RAID).
 
+### 2.3.1 Configuración del RAID 5
+###  Mediante Hardware
+#### Primer intento
+Con una tarjeta controladora de RAID, proporcionada por el profesor.
+#### Problemas
+La tarjeta controladora no era compatible con la placa base. No se pudo encontrar solución a esto asi que buscamos otra opción
+#### Segundo Intento
+Haciendo uso de la funcionalidad de Windows para crear RAIDs se intento conectar 4 discos a la maquina, siendo uno el del Sistema operativo y los tres para el RAID 5.
+#### Problemas
+La fuente de alimentación solo puede dar energía máximo a tres discos duros a la vez, no tiene capacidad para admitir un cuarto disco.
+### Tercer Intento
+También se intento fue conectar tres discos duros a la fuente de alimentación
+
+y haciendo uso de un adaptar de USB 3.0 a SATA 3, se instalo en una SSD de 120GB el Sistema operativo Windows Server, conectado al adaptador.
+
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.016.jpeg)
+#### Problemas
+El ordenador no tiene la capacidad para poder iniciar por BOOT el USB, dando pantallazos azules sin poder proseguir con el RAID 5 y perdiendo acceso al Windows Server.
+#### Conclusión
+Se llego a la conclusión que no era posible hacer un RAID 5 mediante Hardware, optando a realizar un RAID 5 por So ftwware.
+
+### Mediante Software
+
+#### Grupos de Almacenamiento
+
+Usamos un disco extra para realizar el RAID 5, primero hay que inicializar el disco. Esto se realizad des de Administración de Discos.
+
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.017.png)
+
+Se debe crear un nuevo volumen simple.
+
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.018.png)
+
+
+Tambien hay que reducir el tamaño del disco del sistema operativo o añadir un nuevo disco. Y añadir un disco vacio.
+
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.019.png)
+
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.020.png)
+
+La letra asignada sera la D.
+
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.021.png)
+
+Ahora crearemos 3 unidades vhd en el apartado Acción.
+
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.022.png)
+
+
+Examinaremos donde queremos crear y guardar los archivos y el tamaño.
+
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.023.png)
+
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.024.png)
+
+
+Ahora ya tenemos los discos creados.
+
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.025.png)
+
+Para continuar con en el Administrador del servidor nos dirigiremos a Servicios de archivos y de almacenamiento.
+
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.026.png)
+
+Dentro a Grupo de almacenamiento.
+
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.027.png)
+
+
+Debemos actualizar para buscar el grupo primordial.
+
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.028.png)
+
+Ahora nuevo grupo.
+
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.029.png)
+
+
+
+Y ahora los pasos mas importantes. Asignar un  nombre a el grupo:
+
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.030.png)
+
+Seleccionar el disco físico.
+
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.031.png)
+
+
+Crear el grupo de volúmenes.
+
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.032.png)
+
+Esperamos que el proceso termine y cerramos la ventana.
+
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.033.png)
+
+
+Lo siguiente seria ir a Discos virtuales, donde tenemos que añadir el grupo que habíamos creado.
+
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.034.png)
+
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.035.png)
+
+
+Ahora crearemos un nuevo disco virtual. Estas acciones las haremos para los tres discos.
+
+Nombre:
+
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.036.png)
+
+La distribución debe ser simple para que funcione.
+
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.037.png)
+
+
+Aprovisionamiento Fijo.
+
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.038.png)
+
+El tamaño que deseamos o máximo.
+
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.039.png)
+
+
+
+Luego seria crear.
+
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.040.png)
+
+Ahora en administrador de discos.
+
+Podemos crear un RAID5 y ver el procedimiento de este.
+
+![](./img/sprint3/Aspose.Words.f85ec990-6622-4a86-afb3-5340b525395c.041.png)
+
+
+## 2.3.2 Pruebas del RAID5
+
+ Documentación de las pruebas de fallo del RAID 5 instalado en nuestro servidor y de la recuperación de los datos almacenados.
+
+ El primer paso será crear el raid 5, como podemos ver esta bien creado ya que no nos da ningún error.
+
+![](/img/sprint4/raid/image1.png)
+
+ Después, se le añaden datos a la carpeta de almacenamiento del raid.
+
+![](/img/sprint4/raid/image2.png)
+
+Simular el fallo del RAID eliminando la conexión de uno de los tres discos
+
+![](/img/sprint4/raid/image3.png)
+
+ Vemos que el disco está desactivado ya que hemos provocado un fallo para comprobar que está bien hecho.
+
+![](/img/sprint4/raid/image4.png)
+Seleccionar la opción de reparar el volumen para añadir un disco nuevo al raid.
+
+![](/img/sprint4/raid/image5.png)
+
+ Seleccionar el disco que se añadirá de nuevo al RAID para arreglarlo.
+
+![](/img/sprint4/raid/image6.png)
+
+ Sincronizar discos ya recuperados para comprobar que no se ha perdido información.
+
+![](/img/sprint4/raid/image7.png)
+ Para finalizar comprobamos que el disco esta activo y que no se ha perdido ninguna información.
+
+![](/img/sprint4/raid/image8.png)
+
+### 2.3.1 Pruebas de copias de seguridad
+
+ Para hacer las pruebas de las copias de seguridad hemos seleccionado el software AOMEI Backupper en su versión para servidores.
+
+### 2.1 Copia de seguridad completa
+
+ El primer paso que hemos llevado a cabo ha sido la instalación del programa AOMEI Backupper. Una vez instalado y ejecutado elegimos la opción de probar el servicio.
+
+![](img/sprint4/aomei/image1.png)
+
+ Después de haber instalado el Aomei tendremos que seleccionar la opción de crear una nueva copia de seguridad
+
+![](img/sprint4/aomei/image2.png)
+
+ El siguiente paso será crear una copia de seguridad del sistema ya que lo que queremos es crear una imagen de todo el sistema.
+
+![](img/sprint4/aomei/image3.png)
+
+ A continuación seleccionaremos los discos y particiones de los que vamos hacer la copia. Además de la carpeta y el nombre que le pondremos a la nueva copia de seguridad.
+
+![](img/sprint4/aomei/image4.png)
+
+ Empieza a realizarse la copia en la carpeta seleccionada.
+
+![](img/sprint4/aomei/image5.png)
+
+ Se finaliza la copia de seguridad.
+
+![](img/sprint4/aomei/image6.png)
+
+ Al finalizar la copia ya tendremos los datos copiados en la carpeta seleccionada.
+
+![](img/sprint4/aomei/image7.png)
+
+### 2.2 Copia de seguridad incremental
+
+Seleccionar la opción de hacer una copia de seguridad incremental respaldada en la copia completa hecha anteriormente.
+
+> ![](img/sprint4/aomei/image8.png)
+
+ Introducimos un comentario para saber que copia estamos creando.
+
+![](img/sprint4/aomei/image9.png)
+
+ Comienza la copia de seguridad incremental.
+
+![](img/sprint4/aomei/image10.png)
+
+ Finaliza la copia de seguridad está hecha correctamente
+
+![](img/sprint4/aomei/image11.png)
 
 ##  Equipo de Desarrollo
 - Frances Simó Olma  
 - Jaime Climent Cardona  
 - Jonman Jiménez Mendoza
-
-
-##  Arquitectura del CPD
-
-### Infraestructura
-- **Ubicación física:** Sala de servidores con ventilación, seguridad y accesibilidad óptimas.
-- **VLANs configuradas:**
-  - **VLAN de estaciones**: Aísla el tráfico de usuarios.
-  - **VLAN de servidores**: Mayor control y seguridad.
-  - **VLAN de backups**: Almacenamiento y gestión de copias de seguridad.
-
-### Servidores
-- **Servidor principal:** Alojamiento de la base de datos y servicios web.
-- **Servidor de respaldo:** Ubicado en otra instalación para recuperación ante desastres y balanceo de carga.
-
-##  Seguridad y Disponibilidad
-- **Cifrado de comunicaciones:** Protocolos seguros como RSA y TLS.
-- **Backups automáticos:** Copias diarias en local y remoto.
-- **Alta disponibilidad:** Sistema replicado para garantizar continuidad.
-- **Control de accesos:** Autenticación por roles.
-
-##  Recuperación del Sistema
-
-### Procedimientos ante fallos:
-1. **Caída del servidor principal:** Activación del servidor de respaldo mediante balanceador de carga.
-2. **Fallo de red interna:** Reconfiguración automática de VLANs prioritarias.
-3. **Pérdida de datos:** Restauración desde backups automáticos almacenados en remoto.
-4. **Desastre físico (incendio/inundación):** Migración de servicios al CPD alternativo previamente sincronizado.
-
