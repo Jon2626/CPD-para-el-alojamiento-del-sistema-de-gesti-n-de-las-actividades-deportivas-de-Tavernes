@@ -391,10 +391,9 @@ Seleccionar la opción de hacer una copia de seguridad incremental respaldada en
 
 ![](/img/sprint4/aomei/image11.png)
 
+
+![](img/sprint4/aomei/image11.png)
 ##  Equipo de Desarrollo
 - Frances Simó Olma  
 - Jaime Climent Cardona  
 - Jonman Jiménez Mendoza
-
-![](img/sprint4/aomei/image11.png)
-
